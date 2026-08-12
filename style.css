@@ -1,6 +1,8 @@
 body {
     font-family: Arial, sans-serif;
     margin: 40px;
+    background: #f4f6f8;
+    color: #222;
 }
 
 h1 {
@@ -10,16 +12,47 @@ h1 {
 input {
     padding: 8px;
     margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 button {
     padding: 8px 12px;
     margin: 3px;
+    border: none;
+    border-radius: 5px;
+    background: #2563eb;
+    color: white;
     cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
 }
 
 #listDisplay {
     margin-top: 20px;
-    font-size: 20px;
-    font-weight: bold;
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+    min-height: 30px;
+}
+
+/* Search popup */
+.search-popup {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 350px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+    z-index: 1000;
+}
+
+.search-popup input {
+    width: 90%;
+    margin-bottom: 10px;
 }
