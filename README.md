@@ -17,3 +17,5 @@ This project provides a simple webpage to perform operations on a Doubly Linked 
 - HTML
 - CSS
 - JavaScript
+## website screenshot
+<img width="1080" height="994" alt="doublylinkedlistimage" src="https://github.com/user-attachments/assets/fea219a4-ec80-41bf-98dd-049a0c068760" />
